@@ -32,6 +32,7 @@ export const ContactForm = () => {
     }
     dispatch(addContact(newContact));
   };
+  
 
   return (
     <Formik
